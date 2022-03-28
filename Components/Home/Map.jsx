@@ -76,60 +76,60 @@ const Map = () => {
         <p className="medium-font text-black text-xl md:text-base relative z-10">For Global Business Opportunity</p>
         <div className={`${styles.map} xl:block hidden`}>
             <Image src={mapImage} alt='map'/>
-            <Link href="#" >
-                <a onMouseEnter={()=>handleHover(blueUnitedState,'us')} id='us' onMouseLeave={()=>handleHover(unitedState,'us')} className={styles.us} >
+             
+                <span onMouseEnter={()=>handleHover(blueUnitedState,'us')} id='us' onMouseLeave={()=>handleHover(unitedState,'us')} className={styles.us} >
                     <Image src={unitedStateImage} alt="United States Image"/>
-                </a>
-            </Link>
-            <Link href="#">
-                <a  onMouseEnter={()=>handleHover(blueSaudia,'saudia')} id='saudia'  onMouseLeave={()=>handleHover(saudia,'saudia')} className={styles.saudia}>
+                </span>
+             
+            
+                <span  onMouseEnter={()=>handleHover(blueSaudia,'saudia')} id='saudia'  onMouseLeave={()=>handleHover(saudia,'saudia')} className={styles.saudia}>
                     <Image src={saudiaImage} alt="Saudia Image"/>
-                </a>
-            </Link>
-            <Link  href="#">
-                <a  onMouseEnter={()=>handleHover(blueUae,'uae')}  id='uae' onMouseLeave={()=>handleHover(uae,'uae')} className={styles.uae}>
+                </span>
+             
+            
+                <span  onMouseEnter={()=>handleHover(blueUae,'uae')}  id='uae' onMouseLeave={()=>handleHover(uae,'uae')} className={styles.uae}>
                     <Image src={uaeImage} alt="UAE Image"/>
-                </a>
-            </Link>
-            <Link  href="#">
-                <a  onMouseEnter={()=>handleHover(blueChina,'china')} id='china'  onMouseLeave={()=>handleHover(china,'china')} className={styles.china}>
+                </span>
+            
+            
+                <span  onMouseEnter={()=>handleHover(blueChina,'china')} id='china'  onMouseLeave={()=>handleHover(china,'china')} className={styles.china}>
                     <Image src={chinaImage} alt="China Image"/>
-                </a>
-            </Link>
-            <Link  href="#">
-                <a  onMouseEnter={()=>handleHover(blueQatar,'qatar')} id='qatar'  onMouseLeave={()=>handleHover(qatar,'qatar')} className={styles.qatar}>
+                </span>
+            
+            
+                <span  onMouseEnter={()=>handleHover(blueQatar,'qatar')} id='qatar'  onMouseLeave={()=>handleHover(qatar,'qatar')} className={styles.qatar}>
                     <Image src={qatarImage} alt="Qatar Image"/>
-                </a>
-            </Link>
+                </span>
+            
         </div>
         <div className={`${styles.map } xl:hidden `}>
             <Image  src={mapImage} alt='map'/>
-           <Link href="#" >
-                <a onMouseEnter={()=>handleHover(blueUnitedState,'us')} id='us' onMouseLeave={()=>handleHover(unitedState,'us')} className={styles.us} >
+           
+                <span onMouseEnter={()=>handleHover(blueUnitedState,'us')} id='us' onMouseLeave={()=>handleHover(unitedState,'us')} className={styles.us} >
                     <Image src={unitedStateImage} alt="United States Image"/>
-                </a>
-            </Link>
-            <Link href="#">
-                <a  onMouseEnter={()=>handleHover(blueSaudia,'saudia')} id='saudia'  onMouseLeave={()=>handleHover(saudia,'saudia')} className={styles.saudia}>
+                </span>
+            
+             
+                <span  onMouseEnter={()=>handleHover(blueSaudia,'saudia')} id='saudia'  onMouseLeave={()=>handleHover(saudia,'saudia')} className={styles.saudia}>
                     <Image src={saudiaImage} alt="Saudia Image"/>
-                </a>
-            </Link>
-            <Link  href="#">
-                <a  onMouseEnter={()=>handleHover(blueUae,'uae')}  id='uae' onMouseLeave={()=>handleHover(uae,'uae')} className={styles.uae}>
+                </span>
+            
+            
+                <span  onMouseEnter={()=>handleHover(blueUae,'uae')}  id='uae' onMouseLeave={()=>handleHover(uae,'uae')} className={styles.uae}>
                     <Image src={uaeImage} alt="UAE Image"/>
-                </a>
-            </Link>
-            <Link  href="#">
-                <a  onMouseEnter={()=>handleHover(blueChina,'china')} id='china'  onMouseLeave={()=>handleHover(china,'china')} className={styles.china}>
+                </span>
+            
+            
+                <span  onMouseEnter={()=>handleHover(blueChina,'china')} id='china'  onMouseLeave={()=>handleHover(china,'china')} className={styles.china}>
                     <Image src={chinaImage} alt="China Image"/>
-                </a>
-            </Link>
+                </span>
+            
  
-            <Link  href="#">
-                <a  onMouseEnter={()=>handleHover(blueQatar,'qatar')} id='qatar'  onMouseLeave={()=>handleHover(qatar,'qatar')} className={styles.qatar}>
+            
+                <span  onMouseEnter={()=>handleHover(blueQatar,'qatar')} id='qatar'  onMouseLeave={()=>handleHover(qatar,'qatar')} className={styles.qatar}>
                     <Image src={qatarImage} alt="Qatar Image"/>
-                </a>
-            </Link>
+                </span>
+            
         </div>
     </section>
   )

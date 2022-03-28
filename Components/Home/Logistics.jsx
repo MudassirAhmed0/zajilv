@@ -95,7 +95,7 @@ const Logistics = () => {
                             Learn More
                         </a>
                     </Link>
-                    <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span>
+                    {/* <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span> */}
                 </div>
                 <div  className={` flex flex-col gap-y-2  ${styles.accordionItem}`}>
                     <span className={`text-2xl  medium-font relative cursor-pointer z-10  ${styles.accordionHeading}`} onClick={() => handleAccordion(1)}>Freight Services</span>
@@ -105,7 +105,7 @@ const Logistics = () => {
                             Learn More
                         </a>
                     </Link>
-                    <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span>
+                    {/* <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span> */}
                 </div>
                 <div className={` flex flex-col gap-y-2  ${styles.accordionItem}`}>
                     <span className={`text-2xl  relative medium-font cursor-pointer z-10  ${styles.accordionHeading}`} onClick={() => handleAccordion(2)}>Fulfilment</span>
@@ -115,7 +115,7 @@ const Logistics = () => {
                             Learn More
                         </a>
                     </Link>
-                    <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span>
+                    {/* <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span> */}
                 </div>
                 <div className={` flex flex-col gap-y-2  ${styles.accordionItem}`}>
                     <span className={`text-2xl  relative medium-font cursor-pointer z-10  ${styles.accordionHeading}`} onClick={() => handleAccordion(3)}>Domestic Distribution</span>
@@ -125,7 +125,7 @@ const Logistics = () => {
                             Learn More
                         </a>
                     </Link>
-                    <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span>
+                    {/* <span className={`relative w-1/3 z-10 ${styles.accordionDivider}`}></span> */}
                 </div>
 
 

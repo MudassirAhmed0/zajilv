@@ -35,7 +35,7 @@ const Vision = () => {
         <div ref={vision} className='flex  flex-col items-center  md:items-end text-right  center  md:pt-12 md:pb-12 mb-12 md:w-2/6 w-full md:pl-10 md:border-l border-white40Opa'>
 
           <Image src={box} alt='box' />
-          <span className="text-yellow medium-font md:text-3xl text-xl mt-2 mb-2">
+          <span className="text-yellow medium-font md:text-3xl text-xl mt-1.5 mb-2">
             Vision
           </span>
           <span className='text-lg light-font text-white text-center md:text-left'>
@@ -45,7 +45,7 @@ const Vision = () => {
         </div>
         <div ref={mission} className='flex  flex-col text- items-center md:items-start md:pt-12 md:w-2/6 w-full md:mr-10 mr:0 '>
           <Image src={box} alt='box' />
-          <span className="text-yellow medium-font md:text-3xl text-xl mt-2 mb-2">
+          <span className="text-yellow medium-font md:text-3xl text-xl mt-1.5 mb-2">
             Mission
           </span>
           <span className='text-lg light-font text-white text-center md:text-right'>

@@ -129,7 +129,7 @@ opacity: 0.95;
         height: 211px; 
     }
 }
-@media(max-width:778px){
+@media(max-width:767px){
     .about{
         height: 400px;  
     }

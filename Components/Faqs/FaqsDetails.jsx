@@ -131,8 +131,8 @@ const FaqsDetails = ({ setPopupData, openModal }) => {
       const questionsLeft = ls.querySelectorAll('div') 
       const questionsRight = rs.querySelectorAll('div') 
       
-       tll.from(questionsLeft,{opacity:0,x:'-50',stagger:1,duration:.5})
-       tlr.from(questionsRight,{opacity:0,x:'50',stagger:1,duration:.5,delay:.5}) 
+       tll.from(questionsLeft,{opacity:0,x:'-50',stagger:.6,duration:.5})
+       tlr.from(questionsRight,{opacity:0,x:'50',stagger:.6,duration:.5,delay:.5}) 
       },[])
     return (
         <div className={`relative overflow-hidden  ${styles.hFaqs}`} >

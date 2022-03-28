@@ -66,13 +66,13 @@ const History = () => {
 
                         if (show1) {
                             return (<div className={`md:w-1/2 w-full flex flex-col md:pl-10 pb-6 transition-all duration-300 relative fadeLeftt ${styles.rtl} ${styles.firstHistoryItem}`}>
-                                <span className="text-blue bold-font relative pb-2   pr-4 mb-4 v  border-b border-yellow text-4xl ">
+                                <span className="text-blue bold-font relative pb-2  md:pr-[30px]  pr-4 mb-4 v  border-b border-yellow text-4xl ">
                                     1999
                                     <span className={`z-10 ${styles.rightBox}`}>
                                         <Image width={20} height={20} src={box} alt='box' />
                                     </span>
                                 </span>
-                                <span className="medium-font text-grey fadeLeftt  pr-4 ">
+                                <span className="medium-font text-grey fadeLeftt  pr-4  md:pr-[30px]">
                                     Zajil begins as a store-to-store express company with 2 locations in KSA. New locations are continually added.
                                 </span>
                             </div>)
@@ -89,16 +89,16 @@ const History = () => {
 
                         if (show2) {
                             return (<div className={`${styles.rtl} md:w-1/2 w-full flex flex-col  ml-auto  fadeRightt `}>
-                                <span className="text-blue bold-font pr-6   relative pb-2 mb-4 fadeRightt  border-b border-yellow text-4xl ">
+                                <span className="text-blue bold-font pr-6 md:pr-0 md:pl-[30px]   relative pb-2 mb-4 fadeRightt  border-b border-yellow text-4xl ">
                                     2015
                                     <span className={styles.leftBox}>
                                         <Image width={20} height={20} src={box} alt='box' />
                                     </span>
                                 </span>
-                                <span className="medium-font  pr-6 text-grey pb-4 fadeRightt">
+                                <span className="medium-font  pr-6 text-grey pb-4 fadeRightt md:pr-0 md:pl-[30px]">
                                     Now with more than 10 locations, Zajil becomes the first privately-owned company to be licensed for postal delivery service in KSA. Acquires Hat International (HATEX) and expands into line hauling and heavy shipping, and other B2B services.
                                 </span>
-                                <ul className=' flex flex-col gap-y-2 pr-4  pb-4 md:pb-0'>
+                                <ul className=' flex flex-col gap-y-2 pr-4  pb-4 md:pb-0 md:pr-0 md:pl-[30px]'>
                                     <li className={`medium-font  pr-6 text-grey ${styles.historyListItem}`}>
                                         Line Haul / Fleet Shipping
                                     </li>
@@ -127,15 +127,15 @@ const History = () => {
 
                         if (show3) {
                             return (<div className={`${styles.rtl} md:w-1/2 w-full flex flex-col md:pl-10 pb-6 fadeLeftt`}>
-                                <span className="text-blue bold-font  pr-4 relative pb-2 mb-4   fadeLeftt border-b border-yellow text-4xl">
+                                <span className="text-blue bold-font  pr-4 relative pb-2 mb-4 md:pr-[30px]   fadeLeftt border-b border-yellow text-4xl">
                                     2018
                                     <span className={styles.rightBox}>
                                         <Image width={20} height={20} src={box} alt='box' />
                                     </span>
                                 </span>
-                                <span className="medium-font fadeLeftt text-grey  pr-4">
+                                <span className="medium-font fadeLeftt text-grey  pr-4 md:pr-[30px]">
                                     Now with more than 100 locations, new milestones of 115k shipments per month with fleet of 126 and 80 destinations. <br /> New capabilities added: </span>
-                                <ul className=' flex flex-col gap-y-2 mt-3 fadeLeftt pr-4'>
+                                <ul className=' flex flex-col gap-y-2 mt-3 fadeLeftt pr-4 md:pr-[30px]'>
                                     <li className={`medium-font  pr-4 text-grey ${styles.historyListItem}`}>
                                         Last-mile Delivery (LMD) for B2C customers
                                     </li>
@@ -157,16 +157,16 @@ const History = () => {
 
                         if (show4) {
                             return (<div className={`${styles.rtl} md:w-1/2 w-full flex flex-col  ml-auto   fadeRightt`}>
-                                <span className="text-blue bold-font pr-6  relative pb-2 mb-4 fadeRightt  border-b border-yellow text-4xl ">
+                                <span className="text-blue bold-font pr-6 md:pr-0 md:pl-[30px]  relative pb-2 mb-4 fadeRightt  border-b border-yellow text-4xl ">
                                     2020
                                     <span className={styles.leftBox}>
                                         <Image width={20} height={20} src={box} alt='box' />
                                     </span>
                                 </span>
-                                <span className="medium-font  pr-6 text-grey pb-4 fadeRightt">
+                                <span className="medium-font  pr-6 md:pr-0 md:pl-[30px] text-grey pb-4 fadeRightt">
                                     Zajil delivers 416k shipments per month on average to 279 destinations.
                                 </span>
-                                <ul className=' flex flex-col gap-y-2 pr-4 fadeRightt pb-4 md:pb-0'>
+                                <ul className=' flex flex-col gap-y-2 pr-4 fadeRightt pb-4 md:pr-0 md:pl-[30px] md:pb-0'>
                                     <li className={`medium-font  pr-6 text-grey ${styles.historyListItem}`}>
                                         Fulfillment operation (optimized for E-commerce customers)
                                     </li>
@@ -190,16 +190,16 @@ const History = () => {
 
                         if (show5) {
                             return (<div className={`md:w-1/2 w-full flex flex-col md:pl-10 pb-6 relative ${styles.rtl} fadeLeftt ${styles.lastHistoryItem}`}>
-                                <span className="text-blue bold-font  pr-4 relative pb-2 mb-4   fadeLeftt border-b border-yellow text-4xl">
+                                <span className="text-blue bold-font  pr-4 relative pb-2 mb-4  md:pr-[30px]  fadeLeftt border-b border-yellow text-4xl">
                                     2021
                                     <span className={`z-10 ${styles.rightBox}`}>
                                         <Image width={20} height={20} src={box} alt='box' />
                                     </span>
                                 </span>
-                                <span className={`medium-font text-grey fadeLeftt pr-4 `}>
+                                <span className={`medium-font text-grey fadeLeftt pr-4  md:pr-[30px]`}>
                                     Rapid expansion continues despite Covid-19 pandemic. 20k deliveries per day (600k+/mo), for more than 7M customers.  <br /> New shipping and logistics services added:
                                 </span>
-                                <ul className=' flex flex-col gap-y-2 mt-3 fadeLeftt  pr-4'>
+                                <ul className=' flex flex-col gap-y-2 mt-3 fadeLeftt  pr-4 md:pr-[30px]'>
                                     <li className={`medium-font  pr-4 text-grey ${styles.historyListItem}`}>
                                         Fulfillment
                                     </li>
