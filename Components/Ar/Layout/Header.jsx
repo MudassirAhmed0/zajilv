@@ -159,7 +159,7 @@ const Header = ({noShipment}) => {
         <ul className='mr-auto  items-center hidden lg:flex'>
             <li className='ml-12'>
             <span onClick={handleEnglish} className='cursor-pointer hover:text-yellow transition-all'>
-                    العربية    
+                    EN
                     </span> 
             </li>
             <li className={`hover:text-grey duration-300  transition-all ${styles.btn}`}>
@@ -170,7 +170,7 @@ const Header = ({noShipment}) => {
         </ul>
         <ul className='flex lg:hidden mr-auto items-center'>
             <li onClick={handleEnglish} className='ml-4'>
-                <Image src={arabic} alt='Arabic'/>
+                EN
             </li>
             <li className={`cursor-pointer ${styles.hamburgerIcon}`} onClick={openMenuBar}>
                 <Image  width={40}src={icon} alt='hamburger '/> 

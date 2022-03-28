@@ -8,24 +8,33 @@ transform: matrix(1, -0.09, 0.09, 1, 0, 0);
 top: -196.205078125px;
 left: -144.173828125px;
 }
-.accordionOverlayAr2{
+.accordionOverlay2Mob{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 414px;
     height: 558px; 
     background: #001F21 0% 0% no-repeat padding-box;
     opacity: 0.91;
 }
-.accordionOverlayAr{
+.accordionOverlayMob{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 2;
     width: 347px;
     height: 590px; 
-    background: transparent linear-gradient(268deg, #02232A 0%, #011D2000 100%) 0% 0% no-repeat padding-box
+    background: transparent linear-gradient(268, #02232A 0%, #011D2000 100%) 0% 0% no-repeat padding-box;
 }
+.accordionOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 440px;
+    height: 590px; 
+}
+
 .heroTop2{
     background: transparent linear-gradient(75deg, #000000 0%, #00000053 100%) 0% 0% no-repeat padding-box;
     opacity: 0.78;

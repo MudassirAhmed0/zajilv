@@ -67,9 +67,9 @@ opacity: 1;
     top: 0;
     left: 0;
     width: 414px;
-    height: 558px; 
+    height: 100%; 
     background: #001F21 0% 0% no-repeat padding-box;
-    opacity: 0.91;
+    opacity: 0.96;
 }
 .accordionOverlayMob{
     position: absolute;
@@ -77,7 +77,7 @@ opacity: 1;
     left: 0;
     z-index: 2;
     width: 347px;
-    height: 590px; 
+    height: 100%; 
     background: transparent linear-gradient(88deg, #02232A 0%, #011D2000 100%) 0% 0% no-repeat padding-box;
 }
 .accordionOverlay{
@@ -85,7 +85,7 @@ opacity: 1;
     top: 0;
     left: 0;
     z-index: 2;
-    width: 33%;
+    width: 440px;
     height: 590px; 
 }
 

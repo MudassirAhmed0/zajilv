@@ -71,10 +71,8 @@ const Logistics = () => {
                 <h4 className="relative md:text-3xl text-xl w-2/3 text-center -mt-2 text-grey uppercase medium-font">Customize Your Business Logistics</h4>
             </div>
             <div className={`max-1394 mx-auto flex gap-y-9 text-white relative overflow-hidden hidden md:flex flex-col bg-yellow ${styles.accordion}`}>
-                <span className={overlays.accordionOverlayAr}>
-                </span>
-                <span className={overlays.accordionOverlayAr2}>
-                </span>
+                <span style={{backgroundColor:"#02232a"}} className={overlays.accordionOverlay}>
+            </span>
                 {showImage && <span className='fade absolute top-0 img_container w-full h-full'>
                     <ImgLoader src={accordionImage} alt={accordionImage}  /> 
                 </span>}

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+ 
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../../styles2/faqs.module.css'
@@ -7,6 +7,10 @@ import search from '../../assets/NewImages/svg/search.svg'
 import topFrame from '../../assets/NewImages/svg/faqs-top-frame.svg'
 import bottomFrame from '../../assets/NewImages/svg/frame.png'
 import Select from 'react-select';
+import { useEffect, useRef, useState } from "react"
+import {gsap} from "gsap/dist/gsap"
+import{ ScrollTrigger }from "gsap/dist/ScrollTrigger"
+gsap.registerPlugin(ScrollTrigger)
 
 const options = [
     { list:1, value: 'leftParaOne', label: 'Where can I drop off my package for pick-up?' },
@@ -108,6 +112,28 @@ const FaqsDetails = ({ setPopupData, openModal }) => {
         openModal()
     }
     const [visibleTab, setVisibleTab] = useState(data[0].id)
+
+   
+   
+    useEffect(()=>{
+        const  ls =  document.getElementById('leftSide')
+        const  rs =  document.getElementById('rightSide')
+      const tll = gsap.timeline({scrollTrigger:{
+        trigger:ls,  
+        start:'200px bottom'
+      }
+    }) 
+      const tlr = gsap.timeline({scrollTrigger:{
+        trigger:rs, 
+        start:'200px bottom'
+      }
+    }) 
+      const questionsLeft = ls.querySelectorAll('div') 
+      const questionsRight = rs.querySelectorAll('div') 
+      
+       tll.from(questionsLeft,{opacity:0,x:'-50',stagger:1,duration:.5})
+       tlr.from(questionsRight,{opacity:0,x:'50',stagger:1,duration:.5,delay:.5}) 
+      },[])
     return (
         <div className={`relative overflow-hidden  ${styles.hFaqs}`} >
             <span className={`absolute bottom-0 left-0 img_container w-[307px] h-[267px]  ${styles.brandIconFaq}`}>
@@ -152,7 +178,7 @@ const FaqsDetails = ({ setPopupData, openModal }) => {
                 <div key={item?.id} style={visibleTab === item.id ? {} : { display: 'none' }} className={`${styles.px19} mt-28 relative`}>
 
                     <div className='flex max-1394 mx-auto flex-wrap justify-between'>
-                        <div className={`${styles.faqscontentw} pb-12`}>
+                        <div id={"leftSide"} className={`${styles.faqscontentw} pb-12`}>
                             <div>
                                 <h4 className={`${styles.h4size} text-grey medium-font`}>{item?.leftHeadingOne}</h4>
                                 <p className='text-lg text-grey light-font pl-4 mt-5'>
@@ -185,7 +211,7 @@ const FaqsDetails = ({ setPopupData, openModal }) => {
                             </div> 
                         </div>
                         <div className={styles.faqsLine}></div>
-                        <div className={`${styles.faqscontentw} pb-12`}>
+                        <div id={"rightSide"} className={`${styles.faqscontentw} pb-12`}>
                             <div>
                                 <h4 className={`${styles.h4size} text-grey medium-font`}>{item?.RightHeadingOne}</h4>
                                 <p className='text-lg text-grey light-font pl-4 mt-5'>

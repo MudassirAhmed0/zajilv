@@ -9,22 +9,22 @@ import ImgLoader from '../ImgLoader'
 
 const AppDetail = () => {
   return (
-    <div className='lg:py-16 max-1394 mx-auto overflow-hidden relative lg:pr-32 lg:pl-16 px-[18px] pt-[46px] pb-[51px]'>
+    <div className='lg:py-16 max-1394 mx-auto overflow-hidden relative xl:pr-32  pr-[18px] pt-[46px] pb-[51px]'>
     <span className={`absolute ${styles.appBrandIcon}`}>
         <Image src={brandIcon} alt="Brand Icon" />
     </span>
         <p className='text-grey light-font text-lg text-center lg:px-0 px-4 '>Simplified, affordable shipping and logistics is always at hand</p>
-        <div className='mt-10 flex lg:flex-nowrap md:flex-wrap flex-wrap justify-between items-center'>
-            <span className={styles.mobimgw}>
+        <div className='mt-10 flex xl:flex-nowrap md:flex-wrap flex-wrap justify-between items-center'>
+            <span className='xl:w-[60%] w-full xl:h-[538px] img_container md:w-[80%]  md:mx-auto'>
                 <ImgLoader  src={phones} alt="Phone"/>
             </span>
-            <div className={`z-10 ${styles.textw}`}>
+            <div className={`z-10  md:ml-[30px] ml-[15px] ${styles.textw}`}>
                 <h4 className='text-xl medium-font lg:mt-0 mt-[17.5px] text-grey text-xl '>Get Notified</h4>
                 <p className='text-lg light-font text-font text-lg pt-2.5'>Stay up-to-date with in-app or SMS notifications based on location, ETAs, proof of delivery, and even proactive delay status reports.</p>
                 <h4 className='text-xl medium-font text-grey text-xl lg:mt-20 mt-9'>Manage Payments</h4>  
                 <p className='text-lg light-font text-font text-lg pt-2.5'>Pay for shipping without switching apps or creating an account.</p>
             </div>
-            <div className={styles.textw}>
+            <div className={` xl:ml-0 md:ml-[30px] ml-[15px] ${styles.textw}`}>
                 <h4 className='text-xl medium-font text-grey lg:mt-0 mt-9 text-xl'>Track Your Shipments</h4>
                 <p className='text-lg light-font text-font text-lg pt-2.5' >Ship without an account, manage delivery options, and get real-time delivery information. Even calculate shipping costs before you ship.</p>
                 <h4 className='text-xl medium-font text-grey  text-xl lg:mt-20 mt-9'>Get your App Now!</h4>  

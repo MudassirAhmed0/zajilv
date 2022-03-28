@@ -155,8 +155,7 @@ const Logistics = () => {
                     </span>
                     <span className={overlays.accordionOverlayMob2}>
                     </span>
-                    <span style={{backgroundColor:"#02232a"}} className={overlays.accordionOverlay}>
-                    </span>
+                     
                     <span className='fade absolute top-0 img_container w-full h-full'>
                     <ImgLoader src={accordionImage2} alt={accordionImage}  />
                     </span>
@@ -176,8 +175,7 @@ const Logistics = () => {
                     </span>
                     <span className={overlays.accordionOverlayMob2}>
                     </span>
-                    <span style={{backgroundColor:"#02232a"}} className={overlays.accordionOverlay}>
-                    </span>
+                   
                     <span className='fade absolute top-0 img_container w-full h-full'>
                     <ImgLoader src={accordionImage3} alt={accordionImage} />
                     </span>
