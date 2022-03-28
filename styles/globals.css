@@ -20,7 +20,10 @@
   src: url('../assets/fonts/din-next-medium.ttf');
 }
 
-
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  opacity: 0!important;
+}
 
 html,
 body {

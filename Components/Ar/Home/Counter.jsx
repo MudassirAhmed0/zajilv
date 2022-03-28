@@ -35,7 +35,8 @@ const Counter = () => {
         <span className={`bg-cardTopYellow ${styles.yellowBottom}`}></span>
       <div className={`relative  flex justify-between flex-col md:pt-16 md:pb-16 pt-12 pb-12 ${styles.videoContinaer}`}>
       <span className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <video src="/video.mp4" autoPlay loop muted  className='md:object-[0px] object-[-5px] block w-full h-full object-cover'></video>  
+        <video controls src="/video.mp4" autoPlay loop muted  className='md:object-[0px] object-[-5px] block w-full h-full object-cover'></video>  
+         
       </span>
         <span className={overlay.videoTopOverlay}></span>
         <span className={overlay.videoTopOverlay2}></span>
