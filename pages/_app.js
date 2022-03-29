@@ -1,7 +1,19 @@
 import '../styles/globals.css'  
 import Head from 'next/head'
+import {useRouter} from 'next/router'
+import {useEffect} from 'react'
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter()
+  useEffect(()=>{
+    if(router.pathname.includes('/ar')){
+      document.querySelector('html').dir = 'rtl'
+      document.querySelector('body').style.direction = 'rtl'
+    }else{
+      document.querySelector('html').dir = 'ltr'
+      document.querySelector('body').style.direction = 'ltr'
+    }
+  },[])
   return <>
          <Head>
             <meta charSet="UTF-8" />

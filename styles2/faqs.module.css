@@ -61,7 +61,7 @@
     background-color: #FFC20E;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
     .newsletter{
         width: 100% !important;
     }
@@ -98,11 +98,14 @@
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
     .tabList{
         width: 45%;
     }
     .active{
         width: 45%;
+    }
+    .topSection {
+        height: 100px; 
     }
 }

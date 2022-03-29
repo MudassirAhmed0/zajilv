@@ -13,12 +13,12 @@ const AppDetail = () => {
     <span className={`absolute ${styles.appBrandIcon}`}>
         <Image src={brandIcon} alt="Brand Icon" />
     </span>
-        <p className='text-grey light-font text-lg text-center lg:px-0 px-4 '>Simplified, affordable shipping and logistics is always at hand</p>
+        <p className='text-grey xl:text-left xl:w-[45%] xl:ml-auto light-font text-lg text-center lg:px-0 px-4  xl:left-[-30px] relative' >Simplified, affordable shipping and logistics is always at hand</p>
         <div className='mt-10 flex xl:flex-nowrap md:flex-wrap flex-wrap justify-between items-center'>
             <span className='xl:w-[60%] w-full xl:h-[538px] img_container md:w-[80%]  md:mx-auto'>
                 <ImgLoader  src={phones} alt="Phone"/>
             </span>
-            <div className={`z-10  md:ml-[30px] ml-[15px] ${styles.textw}`}>
+            <div className={`z-10  xl:ml-0 xl:mr-[30px] md:ml-[30px] ml-[15px] ${styles.textw}`}>
                 <h4 className='text-xl medium-font lg:mt-0 mt-[17.5px] text-grey text-xl '>Get Notified</h4>
                 <p className='text-lg light-font text-font text-lg pt-2.5'>Stay up-to-date with in-app or SMS notifications based on location, ETAs, proof of delivery, and even proactive delay status reports.</p>
                 <h4 className='text-xl medium-font text-grey text-xl lg:mt-20 mt-9'>Manage Payments</h4>  

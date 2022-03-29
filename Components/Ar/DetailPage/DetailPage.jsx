@@ -3,6 +3,7 @@ import styles from '../../../arStyles2/DetailPage.module.css'
 import arrow from '../../../assets/NewImages/svg/arrow-black.svg'
 import BIgChacha from '../../../assets/NewImages/news-detail-page/image/featured-news.jpg'
 import shareicon from '../../../assets/NewImages/svg/shareicon.svg'
+import ImgLoader from '../../ImgLoader'
 
 const DetailPage = () => {
     const shareIt =()=>{
@@ -23,7 +24,7 @@ const DetailPage = () => {
             </div>
             <div className='mt-3.5'>
                 <span className={styles.chacha}>
-                    <Image src={BIgChacha} alt="News Detail" />
+                    <ImgLoader src={BIgChacha} alt="News Detail"/>
                 </span>
             </div>
             <div className='mt-3.5'>

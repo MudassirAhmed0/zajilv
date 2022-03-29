@@ -138,7 +138,7 @@ const CheckOut = ({ step, setStep, state, setState, handleChange }) => {
                             </ul>
                             <div className={`flex mt-7`}>
                                 <div className={`medium-font  text-base ${styles.promocode}`}>
-                                    <input type="text" placeholder='sds' name='promoCode' value={state.promoCode} onChange={handleChange} id='promoCode' />
+                                    <input type="text" placeholder='sds' style={{borderRadius:0}}  name='promoCode' value={state.promoCode} onChange={handleChange} id='promoCode' />
                                     <label htmlFor="promoCode" className='cursor-pointer'>Promo Code</label>
                                 </div>
                                 <button className='w-32 border  border-grey rounded pt-1 text-grey medium-font '>

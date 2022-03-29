@@ -25,15 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about": [
+    "/ar/ecommerce": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about.js"
+      "static/chunks/pages/ar/ecommerce.js"
     ],
-    "/ar/about": [
+    "/ecommerce": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ar/about.js"
+      "static/chunks/pages/ecommerce.js"
     ]
   },
   "ampFirstPages": []

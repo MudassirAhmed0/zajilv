@@ -169,7 +169,7 @@ const Header = ({noShipment}) => {
             </li>
         </ul>
         <ul className='flex lg:hidden mr-auto items-center'>
-            <li onClick={handleEnglish} className='ml-4'>
+            <li onClick={handleEnglish} className='ml-4  mb-[3px]'>
                 EN
             </li>
             <li className={`cursor-pointer ${styles.hamburgerIcon}`} onClick={openMenuBar}>

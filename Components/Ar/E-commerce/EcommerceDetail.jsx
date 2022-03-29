@@ -103,7 +103,8 @@ const EcommerceDetail = () => {
         <>
             <div className={`${styles.BlueSection}`}>
                 <div className=' '> 
-                    <div className={`max-1394 mx-auto overflow-hidden flex xl:flex-nowrap relative lg:flex-nowrap flex-wrap-reverse justify-between xl:px-20 xl:pt-24 pt-[57px] px-[18px]`}>
+                    <div className={`max-1394 mx-auto overflow-hidden  xl:px-20 xl:pt-24 pt-[57px] px-[18px]`}>
+                       <div className='flex xl:flex-nowrap relative lg:flex-nowrap flex-wrap-reverse justify-between'>
                         <div ref={textContainer} className='xl:w-4/12 w-full xl:mt-0 mt-[35px]'>
                             <span className='box'>
                                 <Image src={yellowBox} alt="Yellow Box" />
@@ -117,8 +118,10 @@ const EcommerceDetail = () => {
                         <span className='absolute top-[22px] lg:hidden block right-[7px]'>
                             <Image src={mobFram} alt="Mobile Frame" />
                         </span>
+
+                       </div>
+                     <HomeCarousel content={content} setVisibleTab={setVisibleTab} visibleTab={visibleTab} />
                     </div>
-                    <HomeCarousel content={content} setVisibleTab={setVisibleTab} visibleTab={visibleTab} />
                 </div>
                 <div className={`h-auto ${styles.bottomContent}`}>
                     <div className='xl:px-20 xl:py-16 px-[18px] py-[54px] '>

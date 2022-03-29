@@ -86,15 +86,11 @@ const Footer = () => {
             </li>
           </ul>
           <div className=' w-1/2 flex-col gap-y-[22px]  items-end gap-x-5 flex md:hidden '>
-           <span className=' transition-all duration-300 hover:opacity-[0.7]' >
-            <Image src={appStoreIcon} alt='App Store Icon' />
-           </span>
-           <span className=' transition-all duration-300 hover:opacity-[0.7]' >
-            <Image src={playStoreIcon} alt='Play Store Icon'  />
-
-           </span>
+              <Image  width={113} height={39} src={appStoreIcon} alt='App Store Icon' />
+            <Image  width={113} height={39} src={playStoreIcon} alt='Play Store Icon'  />
+ 
           </div>
-          <div className="grow mb-4 md:mb-0 flex flex-col justify-center">
+          <div className="grow mb-4 md:mb-0 md:flex flex-col justify-center hidden">
             <Newsletter />
           </div>
         </div>

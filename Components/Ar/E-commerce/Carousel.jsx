@@ -28,9 +28,9 @@ const HomeCarousel = ({ content, setVisibleTab, visibleTab }) => {
     return (
 
         <>
-            <div className={`parent  mx-auto max-1394 xl:mt-28 mt-[49px] ${styles.ecoCarousel}`}>
+            <div className={`parent  mx-auto max-1394 xl:mt-28 mt-[49px] ecoCarousel ${styles.ecoCarousel}`}>
 
-                <Carousel infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]}  renderArrowsWhenDisabled={false} responsive={responsive}  >
+                <Carousel shouldResetAutoplay={false} infinite={true} removeArrowOnDeviceType={["tablet", "mobile"]}  renderArrowsWhenDisabled={false} responsive={responsive}  >
                     {content.map((item, index) =>
                         <p onClick={() => setVisibleTab(item.id)} className={`${visibleTab === item.id ? styles.active : styles.noborder} cursor-pointer xl:mx-4 mx-0 text-lg medium-font text-grey text-center`} key={index}>{item.mainHeading}</p>
                     )}

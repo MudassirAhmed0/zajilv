@@ -28,7 +28,7 @@ const HomeCarousel = ({ content, setVisibleTab, visibleTab }) => {
     return (
 
         <>
-            <div className={`parent mx-auto max-1394 xl:mt-28 mt-[49px]`}>
+            <div className={`parent mx-auto max-1394 xl:mt-28 mt-[49px] ecoCarousel`}>
 
                 <Carousel shouldResetAutoplay={false} removeArrowOnDeviceType={["tablet", "mobile"]} renderArrowsWhenDisabled={false} responsive={responsive}>
                     {content.map((item, index) =>

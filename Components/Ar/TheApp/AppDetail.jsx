@@ -13,7 +13,7 @@ const AppDetail = () => {
     <span className={`absolute ${styles.appBrandIcon}`}>
         <Image src={brandIcon} alt="Brand Icon" />
     </span>
-        <p className='text-grey light-font text-lg text-center lg:px-0 px-4 '>Simplified, affordable shipping and logistics is always at hand</p>
+        <p className='text-grey light-font text-lg   lg:text-right lg:w-[70%] xl:w-[56.5%] lg:mr-auto text-center lg:px-0 px-4 '>Simplified, affordable shipping and logistics is always at hand</p>
         <div className='mt-10 flex lg:flex-nowrap md:flex-wrap flex-wrap justify-between items-center'>
             <span className={styles.mobimgw}> 
                 <ImgLoader  src={phones} alt="Phone"/>

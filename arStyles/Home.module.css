@@ -455,51 +455,6 @@ border-radius: 6px;
     height: 400px;
   }
 }
-@media(max-width:768px){
-  .whiteCard.about{
-    top: -69px;
-  }
-.heroSection{
-  height: 600px;
-}
-.whiteCard{
-  width: 94%;
-}
-.threeCard{
-  height: 250px;
-}
-.track{
-  
-  opacity: 1;
-  width: 107%;
-  height: 150px;
-  border-radius: 0;
- 
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 0;
-  padding: 25px 40px;
-}
-
-.videoSection {
-  height: 549px;
-}
-.carouselCard{
-  height: 315px;
-  margin-right: 15px; 
-}
-.carouselCardImg{
-  height: 150px;
-  overflow: hidden;
-}
-.rightImage{
-  height: 157px;
-}
-.rightImage2{
-  height: 193px;
-}
-}
 
 @media (max-width:1080px) {
   .rightImage{
@@ -583,4 +538,49 @@ border-radius: 6px;
 }
 .homeCarousel ul {
   direction: rtl !important;
+}
+@media(max-width:768px){
+  .whiteCard.about{
+    top: -69px;
+  }
+.heroSection{
+  height: 550px;
+}
+.whiteCard{
+  width: 94%;
+}
+.threeCard{
+  height: 250px;
+}
+.track{
+  
+  opacity: 1;
+  width: 107%;
+  height: 150px;
+  border-radius: 0;
+ 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  padding: 25px 40px;
+}
+
+.videoSection {
+  height: 549px;
+}
+.carouselCard{
+  height: 315px;
+  margin-right: 15px; 
+}
+.carouselCardImg{
+  height: 150px;
+  overflow: hidden;
+}
+.rightImage{
+  height: 157px;
+}
+.rightImage2{
+  height: 193px;
+}
 }

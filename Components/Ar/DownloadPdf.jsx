@@ -44,7 +44,7 @@ const DownloadPdf = () => {
                             <span>
                                 <Image src={download} alt='Download' />
                             </span>
-                            <p className='text-xs text-yellow light-font'>PDF</p>
+                            <p className='text-xs text-yellow light-font text-center'>PDF</p>
                         </div>
                         <div>
                             <h5 className='text-lg text-white '>Document Title</h5>
@@ -56,7 +56,7 @@ const DownloadPdf = () => {
                             <span>
                                 <Image src={download} alt='Download' />
                             </span>
-                            <p className='text-xs text-yellow light-font'>PDF</p>
+                            <p className='text-xs text-yellow light-font text-center'>PDF</p>
                         </div>
                         <div>
                             <h5 className='text-lg text-white '>Document Title</h5>
@@ -68,7 +68,7 @@ const DownloadPdf = () => {
                             <span>
                                 <Image src={download} alt='Download' />
                             </span>
-                            <p className='text-xs text-yellow light-font'>PDF</p>
+                            <p className='text-xs text-yellow light-font text-center'>PDF</p>
                         </div>
                         <div>
                             <h5 className='text-lg text-white '>Document Title</h5>
@@ -80,7 +80,7 @@ const DownloadPdf = () => {
                             <span>
                                 <Image src={download} alt='Download' />
                             </span>
-                            <p className='text-xs text-yellow light-font'>PDF</p>
+                            <p className='text-xs text-yellow light-font text-center'>PDF</p>
                         </div>
                         <div>
                             <h5 className='text-lg text-white '>Document Title</h5>
@@ -92,7 +92,7 @@ const DownloadPdf = () => {
                             <span>
                                 <Image src={download} alt='Download' />
                             </span>
-                            <p className='text-xs text-yellow light-font'>PDF</p>
+                            <p className='text-xs text-yellow light-font text-center'>PDF</p>
                         </div>
                         <div>
                             <h5 className='text-lg text-white '>Document Title</h5>
@@ -112,7 +112,7 @@ const DownloadPdf = () => {
                                 <span>
                                     <Image src={download} alt='Download' />
                                 </span>
-                                <p className='text-xs text-yellow light-font'>PDF</p>
+                                <p className='text-xs text-yellow light-font text-center'>PDF</p>
                             </div>
                             <div>
                                 <h5 className='text-lg text-white '>Document Title</h5>
@@ -124,7 +124,7 @@ const DownloadPdf = () => {
                                 <span>
                                     <Image src={download} alt='Download' />
                                 </span>
-                                <p className='text-xs text-yellow light-font'>PDF</p>
+                                <p className='text-xs text-yellow light-font text-center'>PDF</p>
                             </div>
                             <div>
                                 <h5 className='text-lg text-white '>Document Title</h5>
@@ -136,7 +136,7 @@ const DownloadPdf = () => {
                                 <span>
                                     <Image src={download} alt='Download' />
                                 </span>
-                                <p className='text-xs text-yellow light-font'>PDF</p>
+                                <p className='text-xs text-yellow light-font text-center'>PDF</p>
                             </div>
                             <div>
                                 <h5 className='text-lg text-white '>Document Title</h5>
@@ -148,7 +148,7 @@ const DownloadPdf = () => {
                                 <span>
                                     <Image src={download} alt='Download' />
                                 </span>
-                                <p className='text-xs text-yellow light-font'>PDF</p>
+                                <p className='text-xs text-yellow light-font text-center'>PDF</p>
                             </div>
                             <div>
                                 <h5 className='text-lg text-white '>Document Title</h5>
@@ -160,7 +160,7 @@ const DownloadPdf = () => {
                                 <span>
                                     <Image src={download} alt='Download' />
                                 </span>
-                                <p className='text-xs text-yellow light-font'>PDF</p>
+                                <p className='text-xs text-yellow light-font text-center'>PDF</p>
                             </div>
                             <div>
                                 <h5 className='text-lg text-white '>Document Title</h5>
